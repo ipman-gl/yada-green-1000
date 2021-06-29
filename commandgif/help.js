@@ -7,23 +7,23 @@ exports.run = async (client, message, args, msg) => {
 
 const embed = new Discord.MessageEmbed()
     
-.setColor('RANDOM') 
+.setColor('5ce600') 
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setAuthor(`Gif Help`)
 .setDescription(`
-**Info Commands**
+ •Info Commands•
 \`avatar\` - \`about\` - \`ping\`
 \`invite\` - \`server\` - \`support\`
 
-**Gifs Commands**
+ •Gifs Commands•
 \`boy\` - \`girl\` - \`baby\`
 \`neon\` - \`sad\` - \`smoking\`
 \`animal\` - \`anime\` - \`cuople\`
 \`emoji\`
 
-**Links**
-**[Invite](linke bot dane) - [Server Support](Linke servarek dane)**
+ •Links•
+**link bot->(ODM2NDM4OTQwMTA5MzczNTEw.YIeAdw.j5rOYh_dh-5h0UlWcsVHqRulL4A) - suport server->(https://discord.gg/ja6FtX7rd2)**
 `)
     
 message.channel.send({embed});
