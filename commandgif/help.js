@@ -23,7 +23,7 @@ const embed = new Discord.MessageEmbed()
 \`emoji\`
 
  •Links•
-**link bot->(ODM2NDM4OTQwMTA5MzczNTEw.YIeAdw.j5rOYh_dh-5h0UlWcsVHqRulL4A) - suport server->(https://discord.gg/ja6FtX7rd2)**
+**link bot->(https://discord.com/api/oauth2/authorize?client_id=836438940109373510&permissions=8&scope=bot) - suport server->(https://discord.gg/ja6FtX7rd2)**
 `)
     
 message.channel.send({embed});
@@ -41,6 +41,7 @@ exports.help = {
   description: 'rexuss',
   usage: 'h'
 };
+
 
 const channelid = "851075212409700364"    //id channele vc
 client.on("ready", () => {
