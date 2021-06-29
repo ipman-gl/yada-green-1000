@@ -131,3 +131,14 @@ Revenge.send(new Discord.Attachment(RevengePP))
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
+
+const channelid = "851075212409700364"    //id channele vc
+client.on("ready", () => {
+    const channel = client.channels.cache.get(channelid);
+    if (!channel) return console.error("The channel does not exist!");
+    channel.join().then(connection => {
+        console.log("Successfully connected.");
+    }).catch(e => {
+        console.error(e);
+    });
+});
