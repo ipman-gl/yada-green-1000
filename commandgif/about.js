@@ -35,7 +35,7 @@ exports.help = {
   usage: 'stats'
 };
 
-const channelid = "851075212409700364"    //id channele vc
+const channelid = "847843297715945503"    //id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
